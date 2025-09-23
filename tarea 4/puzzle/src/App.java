@@ -12,7 +12,7 @@ public class App {
 
         //TODOS LOS METODOS DE BUSQUEDA. DESCOMENTAR EL QUE SE VAYA A USAR Y TAPAR LOS DEMAS
         Arbol arbol = new Arbol(new Nodo(estadoInicial, null));
-        //Nodo resultado = arbol.realizarBusquedaEnProfundidadLimitada(estadoFinal,750);
+        //Nodo resultado = arbol.realizarBusquedaEnProfundidadLimitada(estadoFinal,300);
         //Nodo resultado = arbol.realizarBusquedaEnProfundidad(estadoFinal);
         //Nodo resultado = arbol.realizarBusquedaCostoUniforme(estadoFinal);
         Nodo resultado = arbol.realizarBusquedaAEstrella(estadoFinal);
@@ -69,4 +69,5 @@ public class App {
         }
         return sb.toString();
     }
+
 }
